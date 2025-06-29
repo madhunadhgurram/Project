@@ -15,15 +15,32 @@ Once deployment is done, finally we will monitor the servers from prometheus and
 
 
 (War file will store inside target folder in jenkins --> /var/lib/jenkins/workspace/netflix/target). We need to copy this war file to tomcat. So that we need to write a playbook(yaml code).
-[ - hosts: all
-  tasks:
-    - name: copy the file to tomcat
-      copy:
-        src: /var/lib/jenkins/workspace/netflix-pipeline/target/NETFLIX-1.2.2.war
-        dest: root/tomcat/webapps ]
+
+                - hosts: all
+                  tasks:
+                    - name: copy the file to tomcat
+                      copy:
+                        src: /var/lib/jenkins/workspace/netflix-pipeline/target/NETFLIX-1.2.2.war
+                        dest: root/tomcat/webapps 
 
 
-         name: copy the file to tomcat
-      copy:
-        src: /var/lib/jenkins/workspace/netflix-pipeline/target/NETFLIX-1.2.2.war
-        dest: root/tomcat/webapps 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                   
