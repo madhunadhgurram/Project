@@ -14,7 +14,7 @@ Once deployment is done, finally we will monitor the servers from prometheus and
 
 
 
-(War file will store inside target folder in jenkins --> /var/lib/jenkins/workspace/netflix/target). We need to copy this war file to tomcat. So that we need to write a playbook(yaml code).
+(War file will store inside target folder in jenkins --> /var/lib/jenkins/workspace/netflix/target). We need to copy this war file to tomcat. So that we need to write a playbook(deploy.yml code from this repo).
 
                 - hosts: all
                   tasks:
