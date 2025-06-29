@@ -1,9 +1,9 @@
-            - hosts: all
-              tasks:
-                - name: copy the file to tomcat
-                  copy:
-                    src: /var/lib/jenkins/workspace/netflix-pipeline/target/NETFLIX-1.2.2.war
-                    dest: root/tomcat/webapps 
+- hosts: all
+tasks:
+  - name: copy the file to tomcat
+    copy:
+       src: /var/lib/jenkins/workspace/netflix-pipeline/target/NETFLIX-1.2.2.war
+       dest: root/tomcat/webapps 
 
 
 
