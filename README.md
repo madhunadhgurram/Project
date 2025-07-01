@@ -4,7 +4,7 @@
 
 1. We begin the project by provisioning the required infrastructure using Terraform.
    This ensures our environment is version-controlled, and easily scalable.                                       (Infrastructure Provisioning)
-
+ 
 3. Once the infrastructure is ready, the development team pushes the application code to a shared repository, ie; GitHub.   (Code Integration phase)
 
 4. We then fetch the code and trigger a build process using a Continous Integration tool like Jenkins.
