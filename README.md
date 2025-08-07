@@ -1,4 +1,4 @@
-# Project
+# Project 
  
 “In this project, we followed a complete CI/CD pipeline integrated with DevOps best practices. Here's how the process works step by step:”
 
